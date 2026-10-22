@@ -22,7 +22,7 @@ body{
     background-color: black;
     background-image: url("pacote-d013/imagens/fundo-madeira.jpg");
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover ;
 }
 .iphone{
     background-image: url("pacote-d013/imagens/frame-iphone.png");
@@ -36,7 +36,18 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.redes{
+iframe{
+    background-position: center center;
+    background-size: cover;
+}
+.home{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% 
+
+
+    redes{
     background-attachment: fixed;
     position: fixed;
     right: 0px;

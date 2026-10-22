@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+
+@font-face {
+    font-family:"8-bit" ;
+    src: url("fontes/8-bit-hud.ttf") format("truetype");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "8-bit";
+}
+
+p{
+    text-align: center;
+    font-size: 10px;
+    color: azure;
+}
+
+body{
+    background-color: black;
+    background-image: url("pacote-d013/imagens/fundo-madeira.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.iphone{
+    background-image: url("pacote-d013/imagens/frame-iphone.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    position: absolute;
+    background-position: center center;
+    width: 55vh;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.redes{
+    background-attachment: fixed;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 97%;
+    width: 10vw;
+    background-image: linear-gradient(45deg,#C4A484,#8B4513,#4B3621);
+    border: 9px solid #382819;
+
+}

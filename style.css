@@ -55,7 +55,7 @@ iframe{
     top: 0px;
     height: 97%;
     width: 10vw;
-    background-image: linear-gradient(45deg,#C4A484,#8B4513,#4B3621);
+    background-color: transparent;
     border: 9px solid #382819;
 
 }

@@ -48,6 +48,8 @@ img{
     position: absolute;
     right: 10px;
 }
+/*
+COM PROBLEMA SE N PASSAR O CURSOR EXATAMENTE EM CIMA
 a :hover{
     box-shadow: 10px 10px 6px black;
     transform: translate(-10px,-10px);
@@ -55,7 +57,13 @@ a :hover{
     box-sizing: border-box;
     transition: transform 0.1s, border 0.4s;
 }
-
+*/
+/*ABAIXO FOI FEITO COM IA */
+a:hover img {
+    box-shadow: 10px 10px 6px black;
+    transform: translate(-10px, -10px);
+    border: 5px solid white; /* Substitui a borda transparente pela branca sem tremer */
+}
 .home{
     position: absolute;
     top: 50%;

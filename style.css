@@ -25,12 +25,10 @@ p{
 .iphone{
     background-image: url("pacote-d013/imagens/frame-iphone.png");
     background-repeat:no-repeat ;
-    background-size: cover;
     position: absolute;
-    background-position: center center;
-    width: 300px;/*54vh*/
-    height: 110%;/*110%*/
-    top: 50%;
+    height: 678px;
+    width: 311px;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
 }

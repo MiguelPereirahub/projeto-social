@@ -2,21 +2,36 @@
 <html lang="pt-br">
 <head>
     <style>
+                ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+        button:hover{
+        background-color: red;
+        }
+
+                *{
+            margin: 0px;
+            padding: 0px;
+        }
         a{
         color: white;
         text-decoration:none ;
         font-weight :bolder;
         }
         button{
-        width: 100vw;
+                    color: white;
+        text-decoration:none ;
+        font-weight :bolder;
+
+        width: 50vw;
         background-color: brown;
+        position: absolute;
+        left: 25%;
         }
-       body{
-        height: 100vh;
-        background-size: cover;
-        background-image: url("pacote-d013/imagens/tela-facebook.jpg");
-        background-repeat: no-repeat;
-        background-color: aliceblue;
+      body{
+               background-color: aliceblue;
+
        }
     </style>
     <meta charset="UTF-8">
@@ -24,6 +39,7 @@
     <title>face</title>
 </head>
 <body>
-    <button><a href="">abrir</a></button>
+    <img width="270vw"   src="pacote-d013/imagens/tela-facebook.jpg" alt="">
+   <a target="_blank" href="https://www.facebook.com/gustavoguanabara/?locale=pt_BR"><button>abrir</button></a>
 </body>
 </html>

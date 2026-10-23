@@ -11,7 +11,7 @@
 }
 
 p{
-    text-align: center;
+    text-align: right;
     font-size: 10px;
     color: azure;
 }
@@ -37,6 +37,25 @@ iframe{
     background-position: center center;
     background-size: cover;
 }
+a{
+    line-height: 4em;
+    box-sizing: border-box;
+}
+img{
+    box-shadow: 3px 3px 6px black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+}
+a :hover{
+    box-shadow: 10px 10px 6px black;
+    transform: translate(-10px,-10px);
+    border:5px solid white ;
+    box-sizing: border-box;
+    transition: transform 0.1s, border 0.4s;
+}
 
 .home{
     position: absolute;
@@ -54,6 +73,5 @@ iframe{
     height: 97%;
     width: 10vw;
     background-color: transparent;
-    border: 9px solid #382819;
 
 }

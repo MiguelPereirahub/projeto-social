@@ -1,0 +1,72 @@
+@charset "UTF-8";
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+        
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+a{
+            color: white;
+            text-decoration:none ;
+            font-weight :bolder;
+        }
+a:hover img {
+            box-shadow: 10px 10px 6px black;
+            transform: translate(-10px, -10px);
+            border: 5px solid white; /* Substitui a borda transparente pela branca sem tremer */
+            transition: transform 1s , border 0.1s;
+    }
+    
+button:hover{
+            background-color: red;
+        }
+button{
+            padding: 9px;
+            color: white;
+            text-decoration:none ;
+            font-weight :bolder;
+            border: none;
+            width: 100vw;
+            background-color: brown;
+            position: absolute;
+        }
+.faceboock{
+            padding: 9px;
+            color: white;
+            text-decoration:none ;
+            font-weight :bolder;
+            border: none;
+            width: 100vw;
+            background-image: linear-gradient(to top, #0066FF, #00C6FF);
+            position: absolute;
+        }
+.faceboock:hover{
+            background-image: linear-gradient(to top, #0343a3, #029dc8);
+        }
+.insta{
+            padding: 9px;
+            color: white;
+            text-decoration:none ;
+            font-weight :bolder;
+            border: none;
+            width: 100vw;
+            background-image: linear-gradient(45deg,  #f09433 , #e6683c , #dc2743 , #cc2366 , #bc1888);
+            position: absolute;
+
+        }
+.git{
+            background-color: rgb(35, 163, 35);
+        }
+.git:hover{
+        background-color: green;
+        }
+body{
+            background-color: black;
+       }
